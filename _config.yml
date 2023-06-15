@@ -6,6 +6,8 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
+
+
 # Layout
 
 show_excerpts: true        # show article excerpts on the home page
@@ -27,5 +29,7 @@ comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
+remote_theme: niklasbuschmann/contrast@v2.11
+
 plugins:
- - jekyll-feed
+  - jekyll-remote-theme
